@@ -14,12 +14,10 @@ chrome.tabs.onUpdated.addListener(function (tabId, changeInfo, tab) {
 });
 
 function getRandomColor() {
-  // A function to generate a random color.
-  var letters = "0123456789ABCDEF"; // The characters that can be used in a color.
-  var color = "#"; // The start of the color string.
+  var letters = "0123456789ABCDEF";
+  var color = "#";
   for (var i = 0; i < 6; i++) {
-    // A loop to generate 6 characters for the color.
-    color += letters[Math.floor(Math.random() * 16)]; // Adds a random character from the letters string to the color.
+    color += letters[Math.floor(Math.random() * 16)];
+    return color;
   }
-  return color; // Returns the generated color.
 }
