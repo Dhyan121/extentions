@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "My Second Extension",
+    "version": "1.0",
+    "description": "The second extension that I made.",
+    "chrome_url_overrides": {
+        "newtab": "newtab.html"
+    },
+    "permissions": [
+        "storage"
+    ]
+}

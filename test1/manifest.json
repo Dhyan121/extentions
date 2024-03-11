@@ -1,0 +1,10 @@
+{
+    "manifest_version": 2,
+    "name": "Background Changer",
+    "description": "changing background at intervals",
+    "version": "1.0",
+    "background": {
+      "scripts": ["background.js"]
+    },
+    "permissions": ["storage", "activeTab", "https://*/*", "http://*/*"]
+  }
